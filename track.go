@@ -14,6 +14,7 @@ type Track struct {
 	MessageId    string       `json:"messageId,omitempty"`
 	AnonymousId  string       `json:"anonymousId,omitempty"`
 	UserId       string       `json:"userId,omitempty"`
+	GroupId      string       `json:"groupId,omitempty"`
 	Event        string       `json:"event"`
 	Timestamp    time.Time    `json:"timestamp,omitempty"`
 	Context      *Context     `json:"context,omitempty"`
